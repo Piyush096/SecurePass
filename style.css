@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #392121; */
+    background-image: url("pexels-tara-winstead-8386440.jpg");
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #f8f3f3;
+    padding: 20px;rgb(218, 184, 184)rgb(206, 90, 90)rgb(216, 170, 170)
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius:20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="checkbox"] {
+    display: inline;
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .form-group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .form-group:last-child {
+    margin-bottom: 0;
+  }
+
+  .form-group-secondary {
+    text-align: center;
+  }
+
+  .form-group-secondary a {
+    color: #999;
+  }
